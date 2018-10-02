@@ -1,0 +1,44 @@
+	/* ---- particles.js container ---- */
+
+	#particles-js{
+		background-color: #fff;
+		position:fixed;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		z-index:0; 
+	}
+	
+	.scrollme{
+		margin: 100% 0 100% 0;
+		height: auto;
+		width: 100%;
+	}
+
+	h2.demo1 span {
+		position : relative;
+		-webkit-transition: all 0.3s ease-out;
+		font-size: 100px;
+		font-family: 'Nunito';
+		text-transform: uppercase;
+		top: 0px;
+		color: #E34A6F;
+		text-shadow: 4px 4px 0px #DF928E;
+		background-color: transparent;
+		background-size: cover;
+	}
+
+	h2.demo1 span:hover {
+		top: -10px;
+	}
+
+	h2.demo1 .char1 {
+
+		display: inline-blocks;
+		-webkit-transition: all 0.2s ease-out;
+		-moz-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+		-ms-transition: all 0.2s ease-out;
+		transition: all 0.2s ease-out;
+	}
