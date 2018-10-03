@@ -1,7 +1,7 @@
 	/* ---- particles.js container ---- */
 
 	#particles-js{
-		background-color: #fff;
+		background-color: #161616;
 		position:fixed;
 		top:0;
 		right:0;
@@ -9,9 +9,18 @@
 		left:0;
 		z-index:0; 
 	}
-	
+	p{
+		font-family: 'Nunito';
+	}
+
+	footer{
+		position: relative;
+		color: #fff;
+	}
+
 	.scrollme{
-		margin: 100% 0 100% 0;
+		margin: 25% 0 25% 0;
+		padding: 25% 0 0 0;
 		height: auto;
 		width: 100%;
 	}
@@ -21,10 +30,10 @@
 		-webkit-transition: all 0.3s ease-out;
 		font-size: 100px;
 		font-family: 'Nunito';
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		top: 0px;
-		color: #E34A6F;
-		text-shadow: 4px 4px 0px #DF928E;
+		color: #c5c3c6;
+		text-shadow: 4px 4px 0px #474448;
 		background-color: transparent;
 		background-size: cover;
 	}
@@ -34,11 +43,34 @@
 	}
 
 	h2.demo1 .char1 {
-
 		display: inline-blocks;
 		-webkit-transition: all 0.2s ease-out;
 		-moz-transition: all 0.2s ease-out;
 		-o-transition: all 0.2s ease-out;
 		-ms-transition: all 0.2s ease-out;
 		transition: all 0.2s ease-out;
+	}
+
+	#firstContainer p{
+		text-align: justify;
+		text-justify: inter-word;
+		font-size: 30px;
+		font-family: 'Nunito';
+		color: #c5c3c6;
+	}
+
+	#secondContainer li{
+		text-align: justify;
+		text-justify: inter-word;
+		font-size: 30px;
+		font-family: 'Nunito';
+		color: #c5c3c6;
+	}
+
+	#thirdContainer p{
+		text-align: justify;
+		text-justify: inter-word;
+		font-size: 30px;
+		font-family: 'Nunito';
+		color: #c5c3c6;
 	}
